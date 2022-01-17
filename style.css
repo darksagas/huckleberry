@@ -1,6 +1,7 @@
 * {
   box-sizing: border-box;
   font-family: 'Lato', sans-serif;
+  -webkit-font-smoothing: antialiased;
 }
 
 html,
@@ -9,4 +10,41 @@ body {
   padding: 0;
 }
 
-/* Add styles here! */
+header {
+  padding: 32px 0;
+  margin-bottom: 64px;
+  border-bottom: 8px solid hsl(0deg, 0%, 30%);
+  box-shadow: 0 56px 0 0 hsl(0deg, 0%, 60%);
+}
+
+.max-width-wrapper {
+  margin-left: auto;
+  margin-right: auto;
+  padding-right: 24px;
+  padding-left: 24px;
+}
+
+.intro-chunk {
+  min-width: 330px;
+}
+
+strong {
+  color: hsl(160deg, 100%, 30%);
+}
+
+.indented-heading {
+  background: hsl(45deg, 100%, 50%);
+  box-shadow: 0 8px 0 0 hsl(45deg, 100%, 40%);
+  padding: 24px;
+  margin-left: -24px;
+}
+
+.strange-shadow {
+  border-bottom: 8px solid hsl(0deg, 0%, 30%);
+  box-shadow: 0 56px 0 0 hsl(0deg, 0%, 60%);
+}
+
+section {
+  border-bottom: 8px solid hsl(0deg, 0%, 30%);
+  box-shadow: 0 56px 0 0 hsl(0deg, 0%, 60%);
+}
